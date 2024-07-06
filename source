@@ -19,7 +19,7 @@ void setup()
 
 void loop()
 {
-  for (pos = 0; pos <= 180; pos++)
+  for (pos = 0; pos <= 180; pos++) // rotate the servo to 180 degree
   {
     servo1.write(pos); delay(15);
     servo2.write(pos); delay(15);
@@ -28,9 +28,9 @@ void loop()
     servo5.write(pos); delay(15);
     servo6.write(pos); delay(15);
   }
-  for (pos = 180; pos >= 0; pos--)
+  for (pos = 180; pos >= 0; pos--) // rotate the servo backward to 0 degree
   {
-   servo1.write(pos); delay(15);
+    servo1.write(pos); delay(15);
     servo2.write(pos); delay(15);
     servo3.write(pos); delay(15);
     servo4.write(pos); delay(15);
