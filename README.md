@@ -1,7 +1,7 @@
 # Design-circuit-with-6-servo-motors
 This repository for the first task in Electronic Engineering track.
 
-2- Design and program the electronic circuit contains 6 servo motors on simulation editor "Tinkercad".
+Design and program the electronic circuit contains 6 servo motors on simulation editor "Tinkercad".
 
 -> Tools we need:
 
